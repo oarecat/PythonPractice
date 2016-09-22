@@ -2,6 +2,21 @@
 
 import random
 
-code = chr(random(65 , 90))
+#优惠码生成函数参数为优惠码的位数(长度)
+def couponStringMaker(couponLenght):
+    couponString = ""
+    i = 0
+    while i < couponLenght:
+        i = i + 1
+        couponString = couponString + chr(random.randint(65,90))
+    return couponString
 
-print (code)
+#优惠码生成函数参数为优惠码的位数(长度),需要生成的优惠码数量
+def couponMake(couponLenght , couponNum):
+    i = 0
+    while i < couponNum:
+        i = i + 1
+        couponString = couponStringMaker(couponLenght)
+        print (couponString)
+
+couponMake(10 , 200)
