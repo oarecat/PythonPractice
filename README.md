@@ -11,3 +11,4 @@
 * 2016年10月12日：完成第10题,使用Python生成类似于下图中的字母验证码图片-VerificationCode
 * 2016年10月12日：完成第11题,敏感词文本文件filtered_words.txt,里面的内容为以下内容,当用户输入敏感词语时,则打印出Freedom,否则打印出Human Rights-FilteredWords
 * 2016年10月12日：完成第12题,敏感词文本文件filtered_words.txt,里面的内容和0011题一样,当用户输入敏感词语,则用星号*替换,例如当用户输入[北京是个好城市],则变成[**是个好城市]-RrplaceFilteredWords
+* 2016年10月12日：完成第13题,用Python写一个爬图片的程序-DownLoadImgs
