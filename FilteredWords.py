@@ -5,8 +5,6 @@ userInput = input("请输入文字：")
 #增加的encoding = "utf-8"表示读取文件时按照UTF-8的编码方式
 filterWords = open("C:\\GitHub\\PythonPractice\\filtered_words.txt" , "r" , encoding="utf-8").read().split(",")
 
-print (filterWords)
-
 if userInput in filterWords:
     print ("Freedom")
 else:
